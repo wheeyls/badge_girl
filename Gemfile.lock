@@ -4,7 +4,6 @@ PATH
     badge_girl (0.0.1)
       ambry (~> 0.3.0)
       nilify_blanks
-      rails (~> 3.2.13)
       valium
 
 GEM
@@ -117,5 +116,6 @@ DEPENDENCIES
   badge_girl!
   database_cleaner
   jquery-rails
+  rails (~> 3.2.13)
   rspec-rails
   sqlite3
