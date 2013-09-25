@@ -1,5 +1,4 @@
 require 'nilify_blanks'
-require 'valium'
 
 require 'badge_girl/dsl'
 require 'badge_girl/evaluations'

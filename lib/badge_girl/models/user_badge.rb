@@ -36,7 +36,7 @@ module BadgeGirl
       end
 
       def available(user)
-        current = user.badges.in_progress_or_earned.value_of(:badge_id)
+        current = user.badges.in_progress_or_earned.pluck(:badge_id)
 
         Badge.excluding(current).tracked.map { |b| create_badge(user.id, b, false) }
       end
